@@ -30,5 +30,7 @@
 <script setup>
 import { ref } from 'vue'
 import './index.scss'
+import {testReq} from "../../api";
 const msg = ref('周深')
+testReq()
 </script>
